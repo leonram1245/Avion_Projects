@@ -1,70 +1,126 @@
-<!--
-h1{ 
-    color: rgb(238, 228, 227);
-    text-align: center;
+div{
+    text-align:center;
+    font-size:40px;
+    font-family:cursive;  
+    color:white;
 }
-   li,p{
-     color: rgb(238, 228, 227);
-     font-size: large;
+h1{
+    color:white;
+    letter-spacing:20px;
+    font-family:fantasy;
+}
+h2{
+    color:white;
     
-
-   }
-   a{
-    color: rgb(238, 228, 227);
-    font-size: medium;
-    text-align:left;
-   }
-body{
-    text-align:left;
-    background-size: contain;   
-    background-color:#222234;
+    font-family:cursive;
 }
 
-.flex-container {
-    display: flexbox;
-    flex-wrap: wrap;
+@media screen and (min-width: 601px) {
+    #tribute-info {
+      font-size: 20px;
+    }
   }
   
+  @media screen and (max-width: 600px) {
+    #tribute-info {
+      font-size: 20px;
+    }
+  }
+body{
+    background-color: #485461;
+background-image: grey;
+   color:whitesmoke;
+}
+#img-div{
+    
+    display:grid;
+    grid-template-columns:auto auto;
+    width:70vw;
+    height:70vw;
+    margin-left:auto;
+    margin-right:auto;
+    align-items:center;
+    justify-items:center;
+    opacity:0.9;
   
-  .btn {
-    background-color:#222234;
-    border: none;
-    color: white;
-    padding:10px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .btn:hover {
-    background-color: #04FF92;
-  }
-  .box1 {
+}
+.discography{
     display:flex;
-    background-color: #FFBA00;
-    border: 15px solid #222234;
-    justify-content: stretch;
+    align-content:center;
+    justify-content:center;
+}
+
+#tribute-info{
+ 
+ justify-content: center;
+ text-align:left;
+ line-height:1.5em;
+ margin-left:10vw;
+ margin-right:10vw;
+ 
+ 
+ 
+}
+ 
+
+
+#image{
+    width: 33vw;
+    height:33vw;
+    opacity:0.78;
    
-  }
-  .box2{
-    width: 300px;
-    border: 5px solid #F9ED53;
-    background-color: #222256;
-    padding: 50px;
-    margin: 20px;
-    height:400px;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Thinking_Cartoon_Businessman.svg/460px-Thinking_Cartoon_Businessman.svg.png');
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
+}       
+            #main{
+              
+            
+            }
+            
+            #image-caption{
+            text-align:center
+            }
+      #title{
+          text-align:center 
+         
+      }
+      #tribute-link{
+          color:white;
+          
+      }
+     
+     #disco{
+        
+        width: 20vw;
+        height:20vw;
+     }
 
-  .box3{
-    width: 1000px;
-    height:400px;
-    margin: 20px;
-    align-items:stretch;
-  }
+    .fa{
+        display:flex;
+  text-align: center;
+  justify-content:center;
+  text-decoration: none;
+  
 
-  .ff{
-      display:flex;
-      justify-content: flex-start;
-  }
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        
+
+      }
+     .fa-twitter {
+        background: lightblue;
+        color: white;
+
+     }
+     .fa-youtube {
+        background:rgb(230,33,23);
+        color: white;
+
+     } 
+     .fa-instagram {
+        background:rgb(251,57,88);
+        color: white;
+    
+     } 
+
+     
